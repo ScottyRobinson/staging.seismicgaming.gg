@@ -10,7 +10,7 @@ export default defineConfig({
     plugins: [
         basicSsl(),
         laravel({
-            input: ['resources/assets/css/app.css', 'resources/ts/app.tsx'],
+            input: 'resources/js/app.tsx',
             refresh: true,
         }),
         react(),
