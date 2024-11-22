@@ -1,6 +1,5 @@
 import NavLink from '@/Components/NavLink';
 import Logo from '@/Components/Logo';
-import { Link, usePage } from '@inertiajs/react';
 import { PropsWithChildren, ReactNode, useState } from 'react';
 
 export default function Sidebar({}: PropsWithChildren<{ header?: ReactNode }>) {
